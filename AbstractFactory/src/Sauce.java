@@ -1,3 +1,3 @@
-public interface Sauce {
+public abstract class Sauce {
 	public String toString();
 }

@@ -1,3 +1,3 @@
-public interface Clam {
+public interface Clams {
 	public String toString();
 }

@@ -9,7 +9,7 @@ public abstract class PizzaStore {
 		pizza.bake();
 		pizza.cut();
 		pizza.box();
-		System.out.println(pizza.toString());
+		System.out.println("\n" + pizza.toString());
 		return pizza;
 	}
 }

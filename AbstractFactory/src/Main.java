@@ -21,13 +21,13 @@ public class Main {
 		     	 
 		}
 		
+		PizzaStore store;
 		if(franchise.equals("NewYork")) {
-			PizzaStore nyPizzaStore = new NYPizzaStore();
-			nyPizzaStore.orderPizza(pizzaKind);
+			store = new NYPizzaStore();
 		}else {
-			PizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
-			chicagoPizzaStore.orderPizza(pizzaKind);
+			store = new ChicagoPizzaStore();
 		}
+		store.orderPizza(pizzaKind);
 	}
 
 }
